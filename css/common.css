@@ -24,11 +24,18 @@ button {
 }
 
 img {
-	max-width: 100%;
+	max-width: 90%;
 	height: auto;
 	border-radius: 16px;
 }
 
 ul.gallery {
 	list-style: none;
+	text-align: center;
+}
+
+#value {
+	display: inline-block;
+	width: 30px;
+	text-align: center;
 }
