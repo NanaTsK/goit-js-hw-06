@@ -29,9 +29,14 @@ img {
 	border-radius: 16px;
 }
 
-ul.gallery {
+.gallery {
 	list-style: none;
-	text-align: center;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
 }
 
 #value {
