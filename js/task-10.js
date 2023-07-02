@@ -34,8 +34,7 @@ function createBoxes(amount) {
     boxEl.style.backgroundColor = getRandomHexColor(); 
     boxSize += 10; 
     boxesArr.push(boxEl);
-  }
-  }
+  }}
   boxesEl.append(...boxesArr)
 };
 
